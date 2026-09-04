@@ -52,20 +52,6 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-10 flex flex-col gap-4 border-t border-cream/20 pt-6 text-sm text-cream/75 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex gap-5">
-            <a
-              href="#"
-              className="rounded-md underline decoration-cream/40 underline-offset-4 transition-colors hover:decoration-cream focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="rounded-md underline decoration-cream/40 underline-offset-4 transition-colors hover:decoration-cream focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream"
-            >
-              Safeguarding
-            </a>
-          </div>
           <p>© The Woodbridge Tutor</p>
         </div>
       </div>

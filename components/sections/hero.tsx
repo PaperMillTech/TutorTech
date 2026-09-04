@@ -14,11 +14,10 @@ export function Hero() {
             Level 7 SENDCo · held by fewer than 5% of UK educators
           </span>
 
-          <div className="mb-6 flex items-center gap-3">
-            <span className="flex size-16 items-center justify-center rounded-full border-2 border-sage-deep bg-mint text-center font-serif text-[0.7rem] font-semibold leading-[0.9] text-sage-deep shadow-sm">
-              <span aria-hidden="true">The<br />Woodbridge<br />Tutor</span>
+          <div className="mb-6">
+            <span className="flex size-28 items-center justify-center rounded-full border-2 border-sage-deep bg-mint px-3 text-center font-serif text-sm font-semibold leading-tight text-sage-deep shadow-sm sm:size-36 sm:text-base">
+              <span aria-hidden="true">The Woodbridge Tutor</span>
             </span>
-            <span className="font-serif text-lg font-semibold text-ink">The Woodbridge Tutor</span>
           </div>
 
           <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-ink md:text-5xl lg:text-[3.4rem]">

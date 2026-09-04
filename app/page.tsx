@@ -3,13 +3,13 @@ import { Hero } from '@/components/sections/hero'
 import { TrustBar } from '@/components/sections/trust-bar'
 import { Empathy } from '@/components/sections/empathy'
 import { About } from '@/components/sections/about'
+import { TutorGallery } from '@/components/sections/tutor-gallery'
 import { Offer } from '@/components/sections/offer'
 import { Evidence } from '@/components/sections/evidence'
 import { Philosophy } from '@/components/sections/philosophy'
 import { HowItWorks } from '@/components/sections/how-it-works'
 import { WhereIWork } from '@/components/sections/where-i-work'
 import { Faq } from '@/components/sections/faq'
-import { Testimonials } from '@/components/sections/testimonials'
 import { EnquiryForm } from '@/components/sections/enquiry-form'
 import { SiteFooter } from '@/components/sections/site-footer'
 
@@ -28,13 +28,13 @@ export default function Page() {
         <TrustBar />
         <Empathy />
         <About />
+        <TutorGallery />
         <Offer />
         <Evidence />
         <Philosophy />
         <HowItWorks />
         <WhereIWork />
         <Faq />
-        <Testimonials />
         <EnquiryForm />
       </main>
       <SiteFooter />

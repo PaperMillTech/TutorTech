@@ -41,11 +41,8 @@ export function SiteNav() {
           aria-label="The Woodbridge Tutor home"
           className="flex items-center gap-3 text-ink"
         >
-          <span className="flex size-11 shrink-0 items-center justify-center rounded-full border-2 border-sage-deep bg-cream text-center font-serif text-[0.65rem] font-semibold leading-[0.9] text-sage-deep shadow-sm">
-            <span aria-hidden="true">The<br />Woodbridge<br />Tutor</span>
-          </span>
-          <span className="hidden font-serif text-lg font-semibold leading-tight sm:inline md:text-xl">
-            The Woodbridge Tutor
+          <span className="flex size-20 shrink-0 items-center justify-center rounded-full border-2 border-sage-deep bg-mint px-2 text-center font-serif text-[0.68rem] font-semibold leading-[0.95] text-sage-deep shadow-sm sm:size-24 sm:text-[0.75rem]">
+            <span aria-hidden="true">The Woodbridge Tutor</span>
           </span>
         </a>
 

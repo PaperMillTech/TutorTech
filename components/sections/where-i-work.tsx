@@ -10,7 +10,7 @@ const CoverageMap = dynamic(() => import('@/components/coverage-map'), {
 })
 
 const TILES = [
-  { icon: Home, label: 'Woodbridge Studio' },
+  { icon: Home, label: 'Central Woodbridge location' },
   { icon: Car, label: 'Home Visits — A12 corridor' },
   { icon: Monitor, label: 'Online' },
 ]

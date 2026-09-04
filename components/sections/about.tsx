@@ -6,7 +6,6 @@ const CHIPS = [
   'Postgraduate National Award for SEN Coordination (Level 7)',
   'Senior Mental Health Lead',
   'Level 3 Elklan Supporting Language and Learning for 5-11s',
-  "Member of The Tutors' Association",
 ]
 
 export function About() {
@@ -62,7 +61,7 @@ export function About() {
               alt="The Tutors’ Association individual member badge"
               width="180"
               height="89"
-              className="h-auto w-44 rounded-lg bg-ink object-contain"
+              className="h-auto w-44 rounded-lg bg-mint object-contain"
             />
             <p className="max-w-xs text-sm leading-relaxed text-ink/70">
               Proud member of The Tutors&apos; Association.
