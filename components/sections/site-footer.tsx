@@ -30,7 +30,7 @@ export function SiteFooter() {
               Areas served
             </p>
             <p className="mt-3 max-w-xs text-cream/85">
-              Woodbridge · Ipswich · Colchester · the A12 corridor · online
+              Woodbridge · Ipswich · Colchester · the A12 corridor
             </p>
           </div>
 

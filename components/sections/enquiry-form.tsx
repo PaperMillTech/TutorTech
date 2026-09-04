@@ -39,6 +39,15 @@ export function EnquiryForm() {
             <h2 className="text-balance font-serif text-3xl font-semibold text-ink md:text-4xl">
               Book your free consultation.
             </h2>
+            <p className="mt-4 text-base leading-relaxed text-ink/75">
+              Prefer to email directly?{' '}
+              <a
+                href="mailto:kate@thewoodbridgetutor.co.uk"
+                className="font-semibold text-sage-deep underline underline-offset-4"
+              >
+                kate@thewoodbridgetutor.co.uk
+              </a>
+            </p>
 
             {submitted ? (
               <div
@@ -174,10 +183,6 @@ export function EnquiryForm() {
                     Send my enquiry
                   </button>
                 </form>
-                <p className="mt-4 text-center text-sm text-ink/65">
-                  Kate personally reads every enquiry and responds within 24
-                  hours.
-                </p>
               </>
             )}
           </div>

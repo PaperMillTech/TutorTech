@@ -14,11 +14,6 @@ export function Hero() {
             Level 7 SENDCo · held by fewer than 5% of UK educators
           </span>
 
-          <div className="mb-6">
-            <span className="flex size-28 items-center justify-center rounded-full border-2 border-sage-deep bg-mint px-3 text-center font-serif text-sm font-semibold leading-tight text-sage-deep shadow-sm sm:size-36 sm:text-base">
-              <span aria-hidden="true">The Woodbridge Tutor</span>
-            </span>
-          </div>
 
           <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-ink md:text-5xl lg:text-[3.4rem]">
             Specialist primary tuition for children who learn in their own way.

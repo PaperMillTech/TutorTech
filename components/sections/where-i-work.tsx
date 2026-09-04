@@ -1,7 +1,7 @@
 'use client'
 
 import dynamic from 'next/dynamic'
-import { Home, Car, Monitor } from 'lucide-react'
+import { Home, Car } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 
 const CoverageMap = dynamic(() => import('@/components/coverage-map'), {
@@ -12,7 +12,6 @@ const CoverageMap = dynamic(() => import('@/components/coverage-map'), {
 const TILES = [
   { icon: Home, label: 'Central Woodbridge location' },
   { icon: Car, label: 'Home Visits — A12 corridor' },
-  { icon: Monitor, label: 'Online' },
 ]
 
 export function WhereIWork() {
@@ -51,7 +50,7 @@ export function WhereIWork() {
               <CoverageMap />
             </div>
             <p className="px-4 py-3 text-left text-sm text-ink/65">
-              Home visits are available within approximately 30 miles of Woodbridge, including Ipswich and Colchester.
+              Home visits are available within approximately 30 miles of Woodbridge, including Ipswich, Colchester, Bury St Edmunds, Stowmarket, Hadleigh, Felixstowe, Aldeburgh, Framlingham, Saxmundham and Southwold.
             </p>
           </div>
         </Reveal>

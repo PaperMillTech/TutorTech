@@ -22,7 +22,7 @@ export function TutorGallery() {
         <Reveal className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-wider text-sage-deep">A welcoming space</p>
           <h2 className="mt-3 text-balance font-serif text-3xl font-semibold text-ink md:text-4xl">
-            Calm, colourful and ready for learning.
+            Calm, child-centred and ready for learning.
           </h2>
         </Reveal>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
