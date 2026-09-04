@@ -14,7 +14,7 @@ const SUPPORT_OPTIONS = [
   'General enquiry',
 ]
 
-const PREFERENCES = ['Central Woodbridge', 'Home visit', 'Online']
+const PREFERENCES = ['Central Woodbridge', 'Home visit']
 
 const fieldClass =
   'w-full rounded-xl border border-input bg-white px-4 py-3 text-base text-ink placeholder:text-ink/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage-deep'
@@ -57,8 +57,7 @@ export function EnquiryForm() {
                 <CheckCircle2 className="size-12 text-sage-deep" />
                 <p className="font-serif text-2xl text-ink">Thank you.</p>
                 <p className="max-w-sm text-base text-ink/75">
-                  Your enquiry is on its way. Kate personally reads every message
-                  and will be in touch within 24 hours.
+                  Your enquiry is on its way. Thank you for getting in touch.
                 </p>
               </div>
             ) : (

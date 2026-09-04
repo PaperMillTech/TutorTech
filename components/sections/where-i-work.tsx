@@ -31,7 +31,7 @@ export function WhereIWork() {
           </p>
         </Reveal>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-3">
+        <div className="mx-auto mt-10 flex max-w-3xl flex-col items-stretch justify-center gap-4 sm:flex-row sm:items-stretch">
           {TILES.map(({ icon: Icon, label }, i) => (
             <Reveal key={label} delay={i * 80}>
               <div className="flex h-full flex-col items-center gap-3 rounded-2xl border border-border bg-card p-7 shadow-sm">

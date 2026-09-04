@@ -62,6 +62,8 @@ export function About() {
               width="180"
               height="89"
               className="h-auto w-44 rounded-lg bg-mint object-contain"
+              style={{ objectPosition: 'center top' }}
+              style={{ objectPosition: 'center top' }}
             />
             <p className="max-w-xs text-sm leading-relaxed text-ink/70">
               Proud member of The Tutors&apos; Association.
