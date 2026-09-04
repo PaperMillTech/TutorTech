@@ -38,9 +38,15 @@ export function SiteNav() {
       >
         <a
           href="#top"
-          className="font-serif text-lg font-semibold leading-tight text-ink md:text-xl"
+          aria-label="The Woodbridge Tutor home"
+          className="flex items-center gap-3 text-ink"
         >
-          The Woodbridge Tutor
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-full border-2 border-sage-deep bg-cream text-center font-serif text-[0.65rem] font-semibold leading-[0.9] text-sage-deep shadow-sm">
+            <span aria-hidden="true">The<br />Woodbridge<br />Tutor</span>
+          </span>
+          <span className="hidden font-serif text-lg font-semibold leading-tight sm:inline md:text-xl">
+            The Woodbridge Tutor
+          </span>
         </a>
 
         <div className="hidden items-center gap-7 lg:flex">

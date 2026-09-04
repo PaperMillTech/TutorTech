@@ -14,7 +14,7 @@ const SUPPORT_OPTIONS = [
   'General enquiry',
 ]
 
-const PREFERENCES = ['central Woodbridge', 'Home visit', 'Online']
+const PREFERENCES = ['Central Woodbridge', 'Home visit', 'Online']
 
 const fieldClass =
   'w-full rounded-xl border border-input bg-white px-4 py-3 text-base text-ink placeholder:text-ink/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage-deep'
@@ -143,7 +143,7 @@ export function EnquiryForm() {
                           className="flex cursor-pointer items-center gap-2.5 text-base text-ink/85"
                         >
                           <input
-                            type="radio"
+                            type="checkbox"
                             name="preference"
                             value={pref}
                             defaultChecked={i === 0}

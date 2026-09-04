@@ -1,5 +1,13 @@
+'use client'
+
+import dynamic from 'next/dynamic'
 import { Home, Car, Monitor } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
+
+const CoverageMap = dynamic(() => import('@/components/coverage-map'), {
+  ssr: false,
+  loading: () => <div className="h-full min-h-80 animate-pulse rounded-2xl bg-mint/50" aria-label="Loading coverage map" />,
+})
 
 const TILES = [
   { icon: Home, label: 'Woodbridge Studio' },
@@ -36,6 +44,17 @@ export function WhereIWork() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={180}>
+          <div className="mt-8 overflow-hidden rounded-3xl border border-border bg-card p-2 shadow-sm">
+            <div className="h-80 overflow-hidden rounded-2xl">
+              <CoverageMap />
+            </div>
+            <p className="px-4 py-3 text-left text-sm text-ink/65">
+              Home visits are available within approximately 30 miles of Woodbridge, including Ipswich and Colchester.
+            </p>
+          </div>
+        </Reveal>
       </div>
     </section>
   )

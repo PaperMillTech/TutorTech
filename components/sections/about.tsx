@@ -56,6 +56,19 @@ export function About() {
             </p>
           </div>
 
+          <div className="mt-7 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-v0YF7QCBPISY2Rebt5dugqVvTG8ev0.png"
+              alt="The Tutors’ Association individual member badge"
+              width="180"
+              height="89"
+              className="h-auto w-44 rounded-lg bg-ink object-contain"
+            />
+            <p className="max-w-xs text-sm leading-relaxed text-ink/70">
+              Proud member of The Tutors&apos; Association.
+            </p>
+          </div>
+
           <ul className="mt-6 flex flex-wrap gap-2.5">
             {CHIPS.map((chip) => (
               <li
