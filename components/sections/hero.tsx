@@ -30,7 +30,7 @@ export function Hero() {
               href="#contact"
               className="inline-flex items-center justify-center rounded-xl bg-sage-deep px-6 py-3.5 text-base font-medium text-white shadow-sm transition-colors hover:bg-sage focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
             >
-              Book a Free Consultation
+              Arrange a Free Consultation
             </a>
             <a
               href="#how-it-works"

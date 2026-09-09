@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     q: 'How do we start?',
-    a: 'Book a free consultation or email me directly.',
+    a: 'Arrange a free consultation by emailing or phoning me directly',
   },
 ]
 

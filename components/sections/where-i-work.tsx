@@ -50,7 +50,7 @@ export function WhereIWork() {
               <CoverageMap />
             </div>
             <p className="px-4 py-3 text-left text-sm text-ink/65">
-              Home visits are available within approximately 30 miles of Woodbridge, including Ipswich, Colchester, Bury St Edmunds, Stowmarket, Hadleigh, Felixstowe, Aldeburgh, Framlingham, Saxmundham and Southwold.
+              Home visits are available within approximately 30 miles of Woodbridge, including Ipswich, Colchester, Bury St Edmunds, Stowmarket, Hadleigh, Felixstowe, Aldeburgh, Framlingham, Saxmundham, Southwold and Manningtree.
             </p>
           </div>
         </Reveal>
