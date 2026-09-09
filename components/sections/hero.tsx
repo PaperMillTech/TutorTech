@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden px-5 pb-16 pt-28 md:px-8 md:pb-24 md:pt-36"
+      className="relative overflow-hidden px-5 py-16 pt-56 md:px-8 md:py-24 md:pt-48"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2 md:gap-14">
         <Reveal className="max-w-xl">
@@ -14,7 +14,8 @@ export function Hero() {
             Level 7 SENDCo · held by fewer than 5% of UK educators
           </span>
 
-          <h1 className="mt-6 text-balance font-serif text-4xl font-semibold leading-[1.1] text-ink md:text-5xl lg:text-[3.4rem]">
+
+          <h1 className="text-balance font-serif text-4xl font-semibold leading-[1.1] text-ink md:text-5xl lg:text-[3.4rem]">
             Specialist primary tuition for children who learn in their own way.
           </h1>
 
@@ -29,7 +30,7 @@ export function Hero() {
               href="#contact"
               className="inline-flex items-center justify-center rounded-xl bg-sage-deep px-6 py-3.5 text-base font-medium text-white shadow-sm transition-colors hover:bg-sage focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
             >
-              Book a Free Consultation
+              Arrange a Free Consultation
             </a>
             <a
               href="#how-it-works"

@@ -14,7 +14,7 @@ const CORE = [
   {
     icon: BookOpen,
     title: 'English',
-    body: 'Tailored support for reading, writing, grammar, punctuation and spelling — plus fine-motor skills (pencil and scissor control) and handwriting.',
+    body: 'Tailored support for reading, writing, grammar, punctuation and spelling — plus fine-motor skills (pencil control) and handwriting.',
   },
   {
     icon: SpellCheck,

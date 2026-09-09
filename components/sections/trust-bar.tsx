@@ -6,7 +6,6 @@ import {
   ShieldCheck,
   Stethoscope,
   Clock,
-  Users,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -15,7 +14,6 @@ const ITEMS = [
   { icon: GraduationCap, label: 'Level 7 SENDCo', highlight: true },
   { icon: HeartHandshake, label: 'Senior Mental Health Lead' },
   { icon: MessageCircle, label: 'Level 3 Elklan Supporting Language and Learning for 5-11s' },
-  { icon: Users, label: "Member of The Tutors' Association" },
   { icon: ShieldCheck, label: 'Enhanced DBS checked' },
   { icon: Award, label: 'Fully insured' },
   { icon: Stethoscope, label: 'Paediatric First Aid' },
