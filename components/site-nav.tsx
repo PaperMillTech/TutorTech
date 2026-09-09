@@ -63,7 +63,7 @@ export function SiteNav() {
             href="#contact"
             className="hidden rounded-xl bg-sage-deep px-5 py-2.5 text-[0.95rem] font-medium text-white shadow-sm transition-colors hover:bg-sage focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink sm:inline-flex"
           >
-            Book a Free Consultation
+            Arrange a Free Consultation
           </a>
           <button
             type="button"
@@ -95,7 +95,7 @@ export function SiteNav() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-xl bg-sage-deep px-4 py-3 text-center font-medium text-white"
             >
-              Book a Free Consultation
+              Arrange a Free Consultation
             </a>
           </div>
         </div>
